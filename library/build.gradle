@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
-version = "1.0.5"
+version = "1.0.6"
 
 android {
     compileSdkVersion 23
@@ -64,7 +64,7 @@ publishing {
 
             groupId = 'com.github.ProFive'
             artifactId = 'AndroidMP3Recorder'
-            version = '1.0.5'
+            version = '1.0.6'
 
             pom {
                 packaging 'aar'
